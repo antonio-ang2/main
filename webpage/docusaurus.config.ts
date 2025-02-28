@@ -9,10 +9,10 @@ const config: Config = {
   favicon: 'img/paz.jpg',
 
   url: 'https://antonio-ang2.github.io',
-  baseUrl: '/editais',
+  baseUrl: '/main/',
 
   organizationName: 'antonio-ang2',
-  projectName: 'editais',
+  projectName: 'main',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,7 +28,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/antonio-ang2/editais/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/antonio-ang2/main/tree/main/packages/create-docusaurus/templates/shared/',
           routeBasePath: '/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex]
@@ -39,7 +39,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/antonio-ang2/editais/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/antonio-ang2/main/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
