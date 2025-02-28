@@ -5,11 +5,11 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
-  title: 'Editais',
+  title: 'Main',
   favicon: 'img/paz.jpg',
 
   url: 'https://antonio-ang2.github.io',
-  baseUrl: '/main/',
+  baseUrl: '/main',
 
   organizationName: 'antonio-ang2',
   projectName: 'main',
